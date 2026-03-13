@@ -11,5 +11,24 @@ def math():
     6. El resto de la división entera
     7. El valor real de la división
     """
+
     a = 57
     b = 7
+
+    suma = a + b
+    diferencia = a - b
+    producto = a * b
+    cociente = a / b
+    promedio = ( a + b ) / 2
+    resto = a % b
+    valor_real = a // b
+
+    print(suma)
+    print(diferencia)
+    print(producto)
+    print(promedio)
+    print(valor_real)
+    print(resto)
+    print(cociente)
+
+
